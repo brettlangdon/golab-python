@@ -8,7 +8,7 @@ with open("./requirements.txt") as fp:
 
 setup(
     name="golab",
-    version="0.1.1",
+    version="0.1.2",
     description="Python client for GoLab",
     author="Brett Langdon",
     author_email="brett@blangdon.com",
