@@ -2,15 +2,13 @@
 
 from setuptools import setup, find_packages
 
-from golab import __version__
-
 requirements = []
 with open("./requirements.txt") as fp:
     requirements = [l.strip() for l in fp]
 
 setup(
     name="golab",
-    version=__version__,
+    version="0.1.1",
     description="Python client for GoLab",
     author="Brett Langdon",
     author_email="brett@blangdon.com",
