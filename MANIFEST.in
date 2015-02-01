@@ -1,3 +1,4 @@
-include README.* setup.py setup.cfg golab.py requirements.txt LICENSE
+include README.* setup.py setup.cfg requirements.txt LICENSE
+recursive-include golab *.py
 global-exclude *.pyc
 global-exclude *.pyo
